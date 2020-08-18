@@ -1,6 +1,4 @@
 package com.addcustomer;
-
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,23 +8,18 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-
 public class TeleComTestNG extends AddCustomer {
-	static  WebDriver driver;
-	
+	static  WebDriver driver;	
 @BeforeClass
 	public void driver() throws InterruptedException
 	{
-	
 		System.setProperty("webdriver.chrome.driver","D:\\WorkSpace\\TestNG.AddCustomer\\File\\chromedriver.exe" );
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.demo.guru99.com/telecom/");
 		WebElement element=driver.findElement(By.xpath("//*[@id='one']/div/div[1]/div[1]/h3/a"));
 		element.click();
-	
-	PageFactory.initElements(driver,AddCustomer.class);
-	
+	PageFactory.initElements(driver,AddCustomer.class);	
 	AddCustomer.check.click();
 	AddCustomer.firstname.sendKeys("soundar");
 	AddCustomer.lastname.sendKeys("murugan");
