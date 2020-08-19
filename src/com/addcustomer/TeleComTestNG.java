@@ -17,6 +17,7 @@ public class TeleComTestNG extends AddCustomer {
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.demo.guru99.com/telecom/");
+		handling();
 		WebElement element=driver.findElement(By.xpath("//*[@id='one']/div/div[1]/div[1]/h3/a"));
 		element.click();
 	PageFactory.initElements(driver,AddCustomer.class);	

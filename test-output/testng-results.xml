@@ -2,49 +2,27 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56365" started-at="2020-08-18T08:12:05Z" finished-at="2020-08-18T08:13:02Z">
+  <suite name="soundar" duration-ms="108330" started-at="2020-08-19T13:15:04Z" finished-at="2020-08-19T13:16:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56365" started-at="2020-08-18T08:12:05Z" finished-at="2020-08-18T08:13:02Z">
+    <test name="soundarTest" duration-ms="108330" started-at="2020-08-19T13:15:04Z" finished-at="2020-08-19T13:16:52Z">
       <class name="com.addcustomer.TeleComTestNG">
-        <test-method status="FAIL" signature="driver()[pri:0, instance:com.addcustomer.TeleComTestNG@3ecf72fd]" name="driver" is-config="true" duration-ms="0" started-at="2020-08-18T13:42:05Z" finished-at="2020-08-18T13:42:05Z">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+        <test-method status="FAIL" signature="driver()[pri:0, instance:com.addcustomer.TeleComTestNG@3ecf72fd]" name="driver" is-config="true" duration-ms="0" started-at="2020-08-19T18:45:04Z" finished-at="2020-08-19T18:45:04Z">
+          <exception class="org.openqa.selenium.NoSuchFrameException">
             <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=84.0.4147.125)
+              <![CDATA[No frame element found by name or id flow_close_btn_iframe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'LAPTOP-7UJ0K33M', ip: '192.168.43.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\M97D2~1.SOU\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60743}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 98f586337957bcc3855d02de7a7291d6]]>
+Driver info: driver.version: unknown]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=84.0.4147.125)
+              <![CDATA[org.openqa.selenium.NoSuchFrameException: No frame element found by name or id flow_close_btn_iframe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'LAPTOP-7UJ0K33M', ip: '192.168.43.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\M97D2~1.SOU\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60743}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 98f586337957bcc3855d02de7a7291d6
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy8.click(Unknown Source)
-	at com.addcustomer.TeleComTestNG.driver(TeleComTestNG.java:23)
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
+	at com.addcustomer.TeleComTestNG.handling(TeleComTestNG.java:39)
+	at com.addcustomer.TeleComTestNG.driver(TeleComTestNG.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -71,19 +49,19 @@ Session ID: 98f586337957bcc3855d02de7a7291d6
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driver -->
-        <test-method status="SKIP" signature="handling()[pri:0, instance:com.addcustomer.TeleComTestNG@3ecf72fd]" name="handling" duration-ms="0" started-at="2020-08-18T13:43:02Z" finished-at="2020-08-18T13:43:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handling -->
-        <test-method status="SKIP" signature="close()[pri:0, instance:com.addcustomer.TeleComTestNG@3ecf72fd]" name="close" is-config="true" duration-ms="0" started-at="2020-08-18T13:43:02Z" finished-at="2020-08-18T13:43:02Z">
+        <test-method status="SKIP" signature="close()[pri:0, instance:com.addcustomer.TeleComTestNG@3ecf72fd]" name="close" is-config="true" duration-ms="0" started-at="2020-08-19T18:46:52Z" finished-at="2020-08-19T18:46:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
+        <test-method status="SKIP" signature="handling()[pri:0, instance:com.addcustomer.TeleComTestNG@3ecf72fd]" name="handling" duration-ms="0" started-at="2020-08-19T18:46:52Z" finished-at="2020-08-19T18:46:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handling -->
       </class> <!-- com.addcustomer.TeleComTestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- soundarTest -->
+  </suite> <!-- soundar -->
 </testng-results>
